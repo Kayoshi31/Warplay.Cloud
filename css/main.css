@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+  color: #f0f0f0;
+  font-family: AireExterior;
+  font-weight: 400;
+}
+a {
+  color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+p {
+  color:#ABABAB;
+}
+h2 {
+  font-size: 39px;
+}
+body {
+  background-color: #141C24;
+  color: #fff;
+  overflow-x:hidden;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+header {
+  height: 900px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+@font-face {
+  font-family: "AireExterior";
+  src: url("../fonts/AireExterior.ttf");
+ }
+@media (min-width: 575.98px){
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+}
+@media (min-width: 767.98px){
+  .container {
+    max-width: 720px;	
+  }
+}
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1199.98px){
+  .container {
+    max-width: 1300px;
+  }
+}
+.img__container {
+  position: relative;
+  height: 777px;
+}
+.slide__img {
+  position: absolute;
+  max-width: 100%;
+  z-index: -1;
+  right: 20px;
+  box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.nav__container {
+  background-color: #141C24;
+  height: 123px;
+}
+.nav__bar {
+  display: flex;
+  align-items: center;
+  padding-top: 8vh;
+  justify-content: space-evenly;
+}
+.header__item {
+  margin-left: 8vh;
+}
+.slide__text {
+  text-align: center;
+  padding-top: 350px;
+}
+.header-text {
+  font-size: 48px;
+  margin-bottom: 97px;
+}
+.button__style {
+  background-color: #fff;
+  color: black;
+  font-family: AireExterior;
+  font-weight: 400;
+  padding: 19px 89px;
+  background:linear-gradient(-45deg, transparent 15px, rgb(255, 255, 255) 0);
+} 
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.container__text__info {
+  width: 480px;
+}
+.text__tag .tag {
+  color: #57D6FF;
+  margin-bottom: 10px;
+}
+.tag:before{
+  content: "";
+  display: inline-block;
+  width: 10%;
+  margin: 0 .5em 0 0;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+.container__text__info p {
+  margin: 40px 0px;
+}
+.download {
+  color: #00C5FF;
+  border-bottom: 1px solid;
+  padding: 0px 4px;
+}
+.start__play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 154px;
+}
+.img__start__info {
+  margin: 90px 0px;
+}
+.subscription {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper__block__subscription {
+  display: flex;
+  margin-top: 80px;
+  display: inline-block;
+}
+.block__subscription {
+  padding: 76px 42px;
+  background-color: #1F2631;
+  margin-right: 10px;
+  display: inline-block;
+}
+.info__subscription {
+  margin: 21px 0px 47px 0px;
+}
+.button__select {
+  margin-bottom: 47px;
+  background-color: #00C5FF;
+  padding: 14px 123px;
+  color: #141C24;
+  font-family: AireExterior;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.name__subscription h2 {
+  margin-bottom: 15px;
+}
+.block__subscription__select  {
+  background-color: #00C5FF;
+}
+.button__select__dark {
+  background-color: #141C24;
+  color: #F1F8FF;
+  font-weight: 400;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.text__dark {
+  color: #141C24;
+}
+.line{
+  content: "";
+  display: inline-block;
+  width: 40%;
+  margin: 0 .5em 0 0;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  padding-top: 90px;
+  color: #00C5FF;
+}
+.game__chrome {
+  display: flex;
+  align-items: center;
+  margin-top: 280px;
+  
+}
+.map {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.map .text__tag {
+  width: 235px;
+}
+footer {
+  background-color: #171717;
+  padding: 60px 0px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+}
+.imageserverhost {
+  position: absolute;
+  top: 125%;
+  left: 0%;
+}
+@media (max-width: 995px){
+ .imageserverhost {
+  width: 110%;
+  position: relative;
+ }
+}
